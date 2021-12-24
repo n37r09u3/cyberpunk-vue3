@@ -24,7 +24,10 @@ let props = defineProps({
     },
     iconPosition: {
       type: String,
-      default: "left"
+      default: "left",
+      validator: (value: string) => {
+        return ['left', 'right'].indexOf(value) >= 0
+      }
     },
     loading: {
       type: Boolean
