@@ -1,0 +1,62 @@
+/* Global Color */
+$primary-color: #FCF702;
+$primary-dark-color: darken($primary-color, 10%);
+$secondary-color: #02F0FF;
+$secondary-dark-color: darken($secondary-color, 5%);
+$purple-color: #FD4DEE;
+$blue-color: #484FED;
+$orange-color: #FD974F;
+$pink-color: #F9B6F9;
+$red-color: #EC3957;
+$white-color: #ffffff;
+$black-color: #000;
+$grey-color: #2E2E32;
+$grey-light-color: #445259;
+
+/* Global style */
+$base-font-size: 14px;
+$base-text-space: 0.05em;
+
+/* Button style */
+$button-height: 32px;
+$button-large-height: 40px;
+$button-small-height: 26px;
+$button-mini-height: 22px;
+
+$button-padding: 0 1em;
+$button-large-padding: 0 1em;
+$button-small-padding: 0 0.6em;
+$button-mini-padding: 0 0.4em;
+
+$button-text-space: 0.1em;
+$button-font-weight: 500;
+
+/* Input style */
+$input-background-color: #191A20;
+
+$input-large-height: 40px;
+$input-default-height: 36px;
+$input-small-height: 32px;
+$input-mini-height: 30px;
+
+$input-large-font-size: 14px;
+$input-default-font-size: 14px;
+$input-small-font-size: 13px;
+$input-mini-font-size: 12px;
+
+$input-large-padding: 0 12px;
+$input-default-padding: 0 10px;
+$input-small-padding: 0 8px;
+$input-mini-padding: 0 6px;
+
+/* Message style */
+$message-padding: 12px 24px;
+
+/* Tabs style */
+$tabs-item-font-size: 14px;
+$tabs-item-padding: 0.4em 0.8em;
+
+/* Popover style */
+$popover-border-color: $grey-color;
+$popover-border-radius: 0px;
+$popover-space: 6px;
