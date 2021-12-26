@@ -69,7 +69,7 @@ let props = defineProps({
   /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);*/
   &:not(.disabled):focus {
     z-index: 1;
-    outline: 1px solid $secondary-color;
+    outline: none;
   }
   &:hover {
     background-color: darken($primary-color, 8%);

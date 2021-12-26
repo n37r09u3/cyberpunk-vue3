@@ -36,10 +36,6 @@ let subMenuItems = ref<ComponentInternalInstance[]>([])
 const classes = computed(() => ({
   vertical: props.direction === 'vertical'
 }));
-const init = () => {
-  console.log(1111111111)
-};
-
 
 let addItem = (vm: ComponentInternalInstance) => {
   items.value.push(vm)
